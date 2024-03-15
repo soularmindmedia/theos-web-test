@@ -6,9 +6,12 @@
     "types": []
   },
   "files": [
-    "src/main.ts"
+    "src/main.ts",
+    "node_modules/theos-core-library/src/public-api"
   ],
   "include": [
-    "src/**/*.d.ts"
+    "src/**/*.d.ts", 
+    "node_modules/theos-core-library/src/lib/theos-core-library.component.ts",
+    "node_modules/theos-core-library/src/lib/theos-core-library.service.ts"
   ]
 }
